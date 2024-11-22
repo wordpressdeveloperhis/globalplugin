@@ -1,0 +1,313 @@
+﻿== Change log ==
+= 1.0 =
+- created
+- verified compatibility with 3.9
+
+= 1.1 (2nd May 2016) =
+- Fixed formatting issues.
+
+= 1.2 (3rd May 2016) =
+- Mapping of showtimes with theaters.
+
+= 1.3 (4th May 2016) =
+- Iframe resizing Fix
+- Mobile and desktop booking URL
+- taposId added
+
+= 1.4 (20th September 2016) =
+- Cron-Job issue.
+- Other fixes.
+
+= 1.5 (27th September 2016) =
+- Table-Pricing and content display issue.
+- Slide show in single page.
+
+= 1.6 (1st October 2016) =
+- Import new films & performance with cron job issue.
+- film title font resize.
+
+= 1.7 (8th October 2016) =
+- google analytics code issue
+- google analytics traking id in iframe parameter
+
+= 1.8 (13th October 2016) =
+- google analytics code issue in Booking URL fixed.
+- Added DYNAMIC domain name field in GA replacing the hard coded domain name.
+
+= 1.8.1 (3rd November 2016) =
+- Book Now url fixed.
+- Advance Booking in More Showtime Link fixed after new line.
+- Film image error then call default image.
+
+= 1.8.2 (10th November 2016) =
+- Other fixes.
+
+= 1.9 (16th November 2016) =
+- Add iframe event listener.
+- Add gift card widget & load with iframe.
+- Add google tracking code & iframe resizer in gift-card page.
+
+= 2.0 (27th November 2016) =
+- Show more time button issue.
+- Single film page in cinema filter.
+- backend side css issue.
+- If delete customer feeds at t time remove all related data.
+
+= 2.1 (29th November 2016) =
+- Add new show category filters option in backend side (default hide).
+
+= 2.2 (1st December 2016) =
+- Add new option to open new tab for single film page and show time page.
+
+= 2.3 (2nd December 2016) =
+- iframe issue
+
+= 2.4 (8th December 2016) =
+- Add new cron schedule for the removal of all the performances & films older than 7 days.
+
+= 2.5 (17th January 2016) =
+- Change book now URL.
+
+= 2.5.1 (18th January 2016) =
+- Import feed issue.
+
+= 3.0.0 (31th January 2017) =
+-	Marge theme functionality and css in this plugin.
+-	Change widget name ‘Jacro Image’ to ‘Jacro App Download'.
+
+= 3.0.1 (2nd January 2017) =
+-	Style and script issue.
+
+= 3.0.2 (28th February 2017) =
+-	Google analytics code issue in firefox adbloker.
+
+= 3.0.3 (1st March 2017) =
+-	Google analytics code issue in firefox adbloker.
+
+= 3.1 (3rd March 2017) =
+-	Add new function show trailer.
+-	Add new function expand showtime in single film page
+-	Change single page design
+-	Other changes.
+
+= 3.2 (6th March 2017) =
+-	Add new function live events.
+
+= 3.3 (8th March 2017) =
+-	issue fixes
+
+= 3.4 (14th March 2017) =
+-	Add new 'Live Events' & 'Custom Filter' with backend side manageable.
+
+= 3.4.1 (20th March 2017) =
+-	Back button in event films page.
+
+= 3.4.2 (24th March 2017) =
+-	Update cron job schedule automode WordPress 'cron_schedules'
+-	Set interval time and remove old interval in schedule.
+
+= 3.4.3 (27th March 2017) =
+-	Import feed in compare with theater and theater screen.
+
+= 3.4.4 (13th April 2017) =
+-	Add option in Other Settings area for the buttons show timing
+-	films design issue if long film title
+
+= 3.4.5 (12th June 2017) =
+-	URL rewrite for inner pages issue.
+
+= 3.4.6 (19th June 2017) =
+-	Film trailer iframe parent page loading issue
+
+= 3.4.7 (06th July 2017) =
+-	Settings added for Expired Performance auto cleaning.
+
+= 3.4.8 (25th September 2017) =
+-	Set php.ini, .user.ini and .htaccess for the time out issue.
+-	Small bug fixes.
+
+= 3.4.9 (16th December 2017) =
+-	Filter rename.
+-	Filter films and performances issue fixed.
+-	Small bug fixes.
+
+= 3.5.0 (20th December 2017) =
+-	Filter data change.
+-	Book Now widget search feature.
+-	Small bug fixes.
+
+= 3.5.1 (17th January 2018) =
+-	Widget area listing all dates films
+-	Small bug fixes.
+
+= 3.5.2 (30th January 2018) =
+-	Widget listing selected with search
+-	Small design fixes.
+
+= 3.5.3 (09th February 2018) =
+-	Widget listing selected with search
+-	Small design fixes.
+
+= 3.5.4 (14th February 2018) =
+-	All Show date sorting ascending order.
+
+= 3.6.0 (19th February 2018) =
+-	Add new feature for calender events
+-	Fetch events using calender (date).
+-	Sidebar widget default select issue
+-	All show filter issue.
+-	Small bug fixes.
+
+= 3.6.1 (20th February 2018) =
+-	Small design fixes.
+
+= 3.7.0 (22th February 2018) =
+-	Add setting option for cinema popup.
+-	Change layout popup
+-	Change in calendar layout.
+-	Fixed issue with default date in calendar
+
+= 3.7.1 (23th February 2018) =
+-	Small fixes.
+
+= 3.7.2 (07th March 2018) =
+-	iPade issue.
+-	Small fixes.
+
+= 3.7.3 (15th March 2018) =
+-	Filters issue
+-	Select cinema default option removed
+-	Small fixes.
+
+= 3.8.0 (20th March 2018) =
+-	Add file shortcode with location parameter for the specific location
+-	Bug fixes.
+-	Small fixes.
+
+= 3.8.1 (30th March 2018) =
+-	Bug fixes.
+
+= 3.8.2 (09th April 2018) =
+-	Add new option for auto select nearest location.
+
+= 4.0.0 (14th April 2018) =
+-	Add new option for live event sorting
+-	Add option for default select date sorting.
+-	Add option for Jacro widget for fields.
+-	Create new feature (Cinema » Dates » Films)
+-	Other small changes.
+
+= 4.1.0 (22th May 2018) =
+-	Add widget calender
+-	Bug fixes.
+-	Other small changes.
+
+= 4.1.1 (06th June 2018) =
+-	Bug fixes.
+-	Other small changes.
+
+= 4.1.2 (30th July 2018) =
+-	Cinema widget issue.
+-	Add condition for selloninternet
+-	Change film image feed field
+
+= 4.1.3 (31th July 2018) =
+-	Change film poster field img_1s vs img_app
+
+= 4.1.4 (01st August 2018) =
+-	Change film poster field priority img_1s
+
+= 4.1.5 (14th August 2018) =
+-	Change film poster field priority Img_app
+
+= 4.2.0 (10th October 2018) =
+-	Add Last Modified fieds 
+-	Compare with the Last modified field
+-	Add Import ajax.
+
+= 4.3.0 (13th October 2018) =
+-	Add loader message.
+-	Add loader image.
+-	Last modified field same as inb performace.
+-	Add new ajax.
+
+= 4.5.0 (21th November 2018) =
+-	Remove interval loop.
+-	Change ajax and add only one function.
+
+= 4.5.1 (07th December 2018) =
+-	Remove lanst modifiy condition
+
+= 4.5.2 (08th December 2018) =
+-	Import feed location issue.
+
+= MAGIC TIME =
+
+= 6.52 (09/07/2019)
+
+-       Host of updates relating to new theme through previous non-listed versions
+-       New image logic patching gap in handling between Tapos & Internetticketing.com
+-       New sliders & automated carousel
+-       Improved Haze cron for imports etc.
+-       Removed Herobrine 
+
+= 6.53 (09/07/2019)
+
+-       Added localisation language packs - UK, USA, AUS, UK Theatre
+
+
+
+= 6.64 (22/01/2020)
+
+- 	New options in settings:  
+	- filter header text
+	- date format (Now showing dates)
+	- theatre override + genre exclude list (for stag)
+	- group showtimes by modifiers (for cgv - uses showtime-html)
+- 	new shortcode [jacro-set-location location=CGVBUE] (to read location prior to fetching slides)
+	- calls function jacro_set_location in jacro.php
+		- sets $_SESSION['location'] (new) & $_SESSION['cinema']
+- 	replaced function jacro_get_live_slide (main header slider) to filter slides to current cinema 
+	- uses $_REQUEST['cinema_id'], $_SESSION['cinema'], $_SESSION['cinema_startup'] 
+	- couldn't get it working on films (with key jacroFilmTheatreID) so now reads perfs instead (on key performance_theater)
+- 	mobile display wasn't selecting current filter choice or category - now fires change events on page load in script.js
+
+
+
+= 6.65 (23/01/2020)
+
+- 	New options in settings:  
+	- hide main filter tabs
+
+= 6.65.1 (24/01/2020)
+
+- 	Bugfix:  
+	- auto slide only includes perfdate >= today
+
+= 6.65.2 (28/01/2020)
+
+- 	Bugfix:  
+	- performance category filter now filters perfs as well as films
+
+= 6.65.3 (03/03/2020)
+
+- 	Mod:  
+	- Moved performance delete from haze_cron.php to jacro.php (line 863-ish) so only happens if feed exists
+
+= 6.65.4 (18/03/2020)
+
+- 	Mod:  
+	- film & perf imports populate xxx_posts.post_author with theatre id
+	- perf import populates xxx_posts.post_content with tapos performances.code
+	- if film/perf doesn't exist adds it
+	- if exists and last_modified > existing updates it
+	- if exists and last_modified <= existing ignores it
+	- deletes any films/perfs not in current feed
+	- affected files - haze_cron.php & jacro.php
+	
+= 6.65.5 (18/09/2020)
+
+- 	Mod:  
+	- correct logic of disabled/enabled perfbtn based on press_report
+	- always display More Showtimes
+

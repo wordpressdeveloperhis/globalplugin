@@ -1,0 +1,261 @@
+.mini-cal{
+    background: #0F1223;
+	width: 300px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	line-height: 1em;
+}
+#calTitle {
+    display: flex;
+    float: left;
+    clear: both;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    background: #13172c;
+    align-items: center;
+}
+#calTitle #monthYear {
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    padding-top: 0;
+}
+#calTitle button{
+	float: left;
+	width: 25%;
+    outline: none;
+    display: block;
+    border: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.1);	
+	cursor: pointer;
+}
+
+#calTitle button svg{
+
+}
+
+#calTitle button:hover{
+    background: rgba(255,255,255,0.1);
+}
+
+#calThead, #calTbody{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+#calThead{
+	
+}
+
+#calThead > div, #calTbody .a-date {
+    width: 14.28%;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    color: #fcf4d1;
+    font-weight: 500;
+}
+#calTbody .a-date:hover {
+    border-color: #fcf4d1;
+}
+#calThead > div{
+    
+}
+
+#calTbody{
+    
+}
+
+#calTbody .a-date > span{
+    
+}
+
+#calTbody .a-date {
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    border: 0.1em solid transparent;
+    outline: none;
+    color: #FFF;
+    font-weight: 500;
+}
+
+#calTbody .a-date.blurred{
+    color: rgba(255, 255, 255, 0.3);
+	cursor: default;
+}
+
+#calTbody .a-date.event:before{
+    
+}
+
+#calTbody .a-date.current {
+    border: solid 1px #FCF4D1;
+    background: #fcf4d1;
+    color: #0f1223;
+    font-weight: 600;
+}
+#calTbody .a-date.current.event{
+    
+}
+
+#calTbody .a-date:focus,
+#calTbody .a-date:active{
+    background: #D3BA4F;
+}
+#calTbody .a-date.blurred:focus,
+#calTbody .a-date.blurred:active{
+    background: none;
+}
+
+#calTFooter{
+   
+}
+
+#calTFooter #calLink{
+   
+}
+
+#calTFooter #calLink:hover{
+    
+}
+
+#calTFooter #eventTitle{
+    
+}
+
+#InlineCalendarWrapper i{
+  font-size: 2em;
+  padding: 0.1em 0.1em;
+  display: inline-block;
+  position: relative;
+}
+#InlineCalendarWrapper{
+  position: relative;
+}
+#InlineCalendar{
+  position: absolute;
+  width: 300px;
+  top: 3em;
+  font-size: 1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  left: -9999px;
+    font-family: "Manrope", sans-serif;
+  z-index: 9;
+}
+#InlineCalendar.active{
+  left: 0;
+}
+.next-7-days-list .day{
+  	background: none;
+}
+.next-7-days-list .day h4{
+  color: #FFF;
+}
+.next-7-days-list .day a{
+  color: inherit;
+	display:block;
+}
+.next-7-days-list .day a.button{
+  background: rgb(90, 159, 92) !important;
+  padding: 0;
+}
+.next-7-days-list .performance a small{
+  color: #FFF;
+}
+
+.next-7-days-list .performance a:link{
+ color: #FFF;
+}
+
+.next-7-days-list .performance a:visited{
+ color: #FFF;
+}
+button.a-date[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.next-7-days-list .day h4 {
+    color: #fcf4d1;
+    font-family: "Raleway", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.next-7-days-list .performance-dayslist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fcf4d1;
+}
+.performance-dayslist .leftsideperf, .rightsideperf .movietag {
+    display: inline-flex;
+    gap: 10px;
+}
+.next-7-days-list .performance-dayslist .leftsideperf a {
+    color: #fcf4d1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.next-7-days-list .performance-dayslist:not(:last-child) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fcf4d1;
+}
+.scheduleprint {
+    margin-bottom: 50px;
+    color: #fcf4d1;
+    text-transform: uppercase;
+}
+.scheduleprint h3 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.next-7-days-list .day {
+    margin-bottom: 80px;
+}
+.scheduleprint h3.align-center {
+    text-align: center;
+}
+#MenuCalendar {
+    display: none;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+@media (max-width:767px){
+	.scheduleprint h3 {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.next-7-days-list .day h4{
+		font-size:20px;
+	}
+	.next-7-days-list .day {
+		margin-bottom: 44px;
+	}
+}
+
+@media (max-width:480px){
+	.next-7-days-list .performance-dayslist {
+		display:block;
+	}
+	.next-7-days-list .performance-dayslist .leftsideperf {
+		margin-bottom: 10px;
+	}
+	.next-7-days-list .performance-dayslist .rightsideperf {
+		max-width: fit-content;
+	}
+}
+
